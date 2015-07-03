@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'credit_card_processor/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "credit_card_procesor"
+  spec.name          = "credit_card_processor"
   spec.version       = CreditCardProcessor::VERSION
   spec.authors       = ["Dustin Zeisler"]
   spec.email         = ["dustin@zeisler.net"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Basic credit card processing cli application. Takes input from stdin or from file. Validates card numbers via Luhn. Designed at the core with immutable entities.}
+  spec.description   = %q{Basic credit card processing cli application. Takes input from stdin or from file. Validates card numbers via Luhn. Designed at the core with immutable entities.}
+  spec.homepage      = "https://github.com/zeisler/credit_card_processor"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

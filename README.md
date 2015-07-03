@@ -1,6 +1,6 @@
 # CreditCardProcessor
 
-Basic Credit Card Processing Terminal App
+Basic credit card processing cli application. Takes input from stdin or from file. Validates card numbers via Luhn. Designed at the core with immutable entities.
 
 ## Installation
 
@@ -25,7 +25,4 @@ Commands
 ### File Path
 
 run `bin/process example_input.txt`
-
-## Design Decisions
-
-A distinction in my design is that the entities `Person, Transaction, CreditCardAccount, etc` are used as if they are immutable. When a mutation is needed with `CreditCardAccount` a new instance is created with the old attributes and a new balance attribute. 
+ 
