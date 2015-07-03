@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "credit_card_processor"
+require "credit_card_processor/cli"
+
+CreditCardProcessor::CLI.call

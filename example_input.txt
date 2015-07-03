@@ -1,0 +1,9 @@
+Add Tim 4111111111111111 $1000
+Add Linda 5454545454545454 $3000
+Add Jim 1234567890123456 $2000
+Charge Tim $500
+Charge Tim $800
+Charge Linda $7
+Credit Linda $100
+Credit Jim $200
+exit
